@@ -90,7 +90,7 @@ if __name__ == "__main__":
             os.startfile(codePath)
 
         elif 'open notepad' in query:
-            codePath = "C:\\Windows\\System32\\notepad.exe"
+            codePath = "C:\\\Windows\\System32\\notepad.exe"
             os.startfile(codePath)
 
         elif 'open android studio' in query:
@@ -116,6 +116,9 @@ if __name__ == "__main__":
 
         elif 'open google meet' in query:
             webbrowser.open("https://meet.google.com/?hs=197&pli=1&authuser=0")
+
+        elif 'close' in query:
+            keyboard.press_and_release('Alt+F4')
 
         elif 'exit' in query:
             speak("Sure Sir")
