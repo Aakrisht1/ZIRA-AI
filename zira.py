@@ -3,10 +3,10 @@ import speech_recognition as sr
 import datetime
 import wikipedia
 import webbrowser
-import subprocess
 import pyautogui
 import keyboard
 import time
+import os
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -86,13 +86,16 @@ if __name__ == "__main__":
             webbrowser.open("https://www.geeksforgeeks.org/")
 
         elif 'open calculator' in query:
-            subprocess.call('C://Windows//System32//calc.exe')
+            codePath = "C:\\Windows\\System32\\calc.exe"
+            os.startfile(codePath)
 
         elif 'open notepad' in query:
-            subprocess.call('C://Windows//System32//notepad.exe')
+            codePath = "C://Windows//System32//notepad.exe"
+            os.startfile(codePath)
 
         elif 'open androiod studio' in query:
-            subprocess.call('C://Program Files//Android//Android Studio//bi//studio64.exe')
+            codePath = "C://Program Files//Android//Android Studio//bi//studio64.exe"
+            os.startfile(codePath)
 
         elif 'bluetooth' in query:
             keyboard.press_and_release('windows+a')
