@@ -101,6 +101,8 @@ if __name__ == "__main__":
             keyboard.press_and_release('windows+a')
             time.sleep(3)
             pyautogui.click(x=1681, y=571)
+            time.sleep(3)
+            keyboard.press_and_release('windows+a')
 
         elif 'open discord' in query:
             webbrowser.open("https://discord.com/")
