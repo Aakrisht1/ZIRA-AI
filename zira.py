@@ -90,11 +90,11 @@ if __name__ == "__main__":
             os.startfile(codePath)
 
         elif 'open notepad' in query:
-            codePath = "C://Windows//System32//notepad.exe"
+            codePath = "C:\\Windows\\System32\\notepad.exe"
             os.startfile(codePath)
 
-        elif 'open androiod studio' in query:
-            codePath = "C://Program Files//Android//Android Studio//bi//studio64.exe"
+        elif 'open android studio' in query:
+            codePath = "C:\\Program Files\\Android\\Android Studio\\bin\\studio64.exe"
             os.startfile(codePath)
 
         elif 'bluetooth' in query:
