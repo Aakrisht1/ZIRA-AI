@@ -1,0 +1,9 @@
+                       ZIRA - The Student Assistant
+What is Zira?
+ZIRA is an AI-based automated application that is designed to assist students.  
+With growing technology our application focuses to level up education.
+It can be a replacement for the traditional method of learning, also chaning the way for studying.
+Our project assists the student by reducing the manual efforts by accepting the audio commands on the operating system.
+It can further be merged with the operating system with some changes so that it can be a hybrid environment best suited for the students. 
+It can also be modified by being the best example of automation if merged with an operating system making an ease for the students.
+It could easily work on audio response giving up maximum positive results.
